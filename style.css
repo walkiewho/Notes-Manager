@@ -1,0 +1,179 @@
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/back.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+    margin: 0px;
+    padding: 10px;
+}
+
+.main-page {
+    margin: 0 auto;
+    min-height: 100vh;
+    height: auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 40px;
+    box-sizing: border-box;
+
+    color: white;
+    background: rgba(22, 22, 22, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+#pageName {
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-left: 20px;
+}
+
+#noteHeader {
+    font-size: 14pt;
+}
+
+#noteHolder {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 10px;
+    color: rgb(160, 160, 160);
+    background: #0e0e0e;
+    min-height: 57px;
+
+    font-size: 20pt;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.delete {
+    border: none;
+    border-radius: 15px;
+    background-color: #b6a7ff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#input {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+
+    color: rgb(160, 160, 160);
+    background: #0e0e0e;
+
+    font-size: 14pt;
+
+    min-height: 100px;
+    max-height: 400px;
+    resize: vertical;
+}
+
+.pageName {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.createDiv {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 10px;
+    padding-right: 20px;
+}
+.createButton {
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #9b90d3;
+    font-size: 14pt;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.noteName {
+    display: block;
+    font-size: 10pt;
+}
+
+.noteEdit {
+    display: block;
+}
+
+.noteEdit {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+
+    color: rgb(232, 232, 232);
+    background: #333;
+
+    font-size: 14pt;
+
+    min-height: 100px;
+    max-height: 400px;
+    resize: vertical;
+}
+
+.noteSeparator {
+    border: none;
+    height: 2px;
+    border-radius: 1px;
+    background: #333;
+    margin: 10px 10px;
+}
+
+#initials {
+    padding-top: 20px;
+    margin-top: auto;
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+#myTG {
+    color: #9b90d3;
+    text-decoration: none;
+}
+
+#header-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 30px;
+    width: 95%;
+}
+
+#delete-all {
+    position: absolute;
+    right: 0;
+    border: none;
+    border-radius: 15px;
+    background-color: #9b90d3;
+    padding: 5px 10px;
+    cursor: pointer;
+}
